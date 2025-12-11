@@ -1,42 +1,31 @@
-# {Name}
+# Space Flappy Bird (archived)
 
-<!-- Replace this badge with your own-->
-[![Build status](https://ci.appveyor.com/api/projects/status/hv6uyc059rqbc6fj?svg=true)](https://ci.appveyor.com/project/madskristensen/extensibilitytools)
+This repository is an archived of the original EasyX/Visual Studio version of **Space Flappy Bird**, my first programming project.
 
-<!-- Update the VS Gallery link after you upload the VSIX-->
-Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/[GuidFromGallery])
-or get the [CI build](http://vsixgallery.com/extension/{ID}/).
+It is preserved here purely for learning and historical review.
 
----------------------------------------
+The original active repository is located at [Edwardzcn/SpaceFlappyBird1](https://github.com/Edwardzcn/SpaceFlappyBird1).
 
-{Description}
+Assets(pictures) required for this project are included under `SpaceFlappyBirdAssets/`.  
+To extract them:
 
-See the [change log](CHANGELOG.md) for changes and road map.
+```bash
+cd ./SpaceFlappyBirdAssets
+tar -xzf assets.tar.gz
+```
 
-## Features
+> [!WARNING]
+>
+>**This project is no longer maintained.**.  
+> It has been archived and is preserved *as-is* for learning, historical review, and reference only.  
+> The codebase reflects outdated development practices and dependencies from (potentially) outdated tools/workflows.
+>
+> No further updates, bug fixes, or feature additions will be provided for this project.  
+> Pull requests and issues will not be reviewed.
 
-- Feature 1
-- Feature 2
-  - Sub feature
-
-### Feature 1
-Describe feature 1. Add screenshots/code samples etc.
-
-### Feature 2
-Describe feature 2. Add screenshots/code samples etc.
-
-#### Sub feature
-Describe sub feature. Add screenshots/code samples etc.
-
-## Contribute
-Check out the [contribution guidelines](CONTRIBUTING.md)
-if you want to contribute to this project.
-
-For cloning and building this project yourself, make sure
-to install the
-[Extensibility Tools 2015](https://visualstudiogallery.msdn.microsoft.com/ab39a092-1343-46e2-b0f1-6a3f91155aa6)
-extension for Visual Studio which enables some features
-used by this project.
 
 ## License
-[Apache 2.0](LICENSE)
+
+Code is still licensed under [Apache 2.0](./LICENSE).
+
+All images and graphic assets under `/assets` are licensed under [CC BY 4.0](./SpaceFlappyBirdAssets/LICENSE) and require attribution.
